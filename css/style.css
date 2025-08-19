@@ -1,0 +1,204 @@
+/* The Owl's Fancy Custom Styles */
+:root {
+  --primary-color: #d8ad5c;
+  --accent-color: #B497BD;
+  --light-bg: #F8F6F4;
+  --dark-text: #2E2B2B;
+  --mid-text: #4B3F72
+  ;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--light-bg);
+  color: var(--mid-text);
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+  color: var(--mid-text);
+}
+
+.navbar-custom {
+  background: var(--primary-color) !important;
+}
+
+.navbar-brand img {
+  transform: translateX(-55px); /* sposta visivamente a destra */
+  height: 50px;
+  width: auto;
+  margin-top: -20px; /* sposta verso l'alto */
+  margin-bottom: -20px; /* sposta verso il basso */
+}
+
+.hero {
+  position: relative;
+  background: url('../img/cake3.png') center/cover no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 120px 15px 50px; /* top right/left bottom */
+}
+
+.hero .tagline {
+  text-align: left;
+  max-width: 400px; /* così non si allunga troppo */
+  margin-left: 6px; /* sposta un po’ verso destra rispetto al bordo */
+  line-height: 1.8; /* compatta leggermente le righe */
+  color: #ffffff;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.text-muted {
+  font-size: 1.2rem;  /* ingrandisce il testo, modifica a piacere */
+  line-height: 1.5;   /* mantiene buona leggibilità */
+  margin-left: 2rem;  /* margine sinistro più ampio */
+  margin-right: 2rem; /* margine destro più ampio */
+}
+.about-images {
+  /* usa flexbox per allineare affiancate */
+  display: flex;
+  justify-content: center; /* centra il gruppo */
+  gap: 200rem; /* spazio tra le immagini */
+  margin-top: 2rem;
+}
+
+.about-img {
+  width: 500px;       /* stessa larghezza per entrambe */
+  max-width: 100%;    /* responsivo su schermi piccoli */
+  height: auto;       /* mantiene proporzioni */
+  border-radius: 0.5rem;  /* angoli arrotondati */
+}
+
+.btn-owl {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  color: #fff;
+}
+.btn-owl:hover {
+  filter: brightness(1.05);
+  color: #fff;
+}
+
+.section-pad {
+  padding: 80px 0;
+}
+
+.bg-accent {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+.menu-item-card img {
+  width: 100%;
+  height: auto;
+  border-radius: .5rem;
+}
+.menu-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding-bottom: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.menu-scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.menu-scroll-container::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
+
+.menu-item-card {
+  flex: 0 0 auto;
+  width: 250px;
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.menu-item-card h5 {
+  font-size: 1.25rem; /* da 1.25rem a 1rem */
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 0.75rem; /* più spazio sotto il titolo */
+}
+
+.menu-item-card p.small.text-muted {
+  font-size: 1rem; /* da 0.875rem a 0.75rem */
+  line-height: 1.6;    /* più altezza di riga per leggibilità */
+  margin-bottom: 1rem; /* più spazio sotto la descrizione */
+  color: #6c757d;
+}
+
+.menu-item-card p.fw-bold {
+  font-size: 1rem; /* da 1rem a 0.9rem */
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 0;
+}
+
+.menu-item-card img {
+  width: 75%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.review-card {
+  background: #fff;
+  border: 2px solid var(--accent-color);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  height: 100%;
+}
+.review-name {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.footer-custom {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-custom a {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer-custom a:hover {
+  text-decoration: none;
+}
+
+.social-btn {
+  font-size: 1.5rem;
+  margin: 0 .5rem;
+  color: #fff;
+}
+.social-btn:hover {
+  opacity: .85;
+  color: #fff;
+}
+
+.hero-logo {
+  max-width: 500px;  /* Puoi ridurre o aumentare questo valore */
+  height: auto;
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>The Owl's Fancy </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <!-- Custom -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home" aria-label="Homepage">
+      <img src="img/titolo.png" alt="The Owl's Fancy logo" class="d-none d-md-inline">
+      <img src="img/titolo.png" alt="The Owl's Fancy logo small" class="d-inline d-md-none">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#owlNav" aria-controls="owlNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="owlNav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase fw-bold">
+  <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+  <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+  <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+  <li class="nav-item"><a class="nav-link" href="#order">Order</a></li>
+  <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+  <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header id="home" class="hero d-flex align-items-center justify-content-center">
+  <div class="hero-content container text-center">
+    <img src="img/Logo.png" alt="The Owl's Fancy logo" class="hero-logo img-fluid mx-auto d-block">
+<h2 class="tagline">
+  Where every sweet<br>
+  tells a story
+</h2>
+  </div>
+</header>
+
+<!-- About Us Section -->
+<section id="about" class="section-pad">
+  <div class="container">
+     <div class="text-center mb-5">
+  <h2>About Us</h2>
+  <p class="text-muted">The Owl's Fancy is a patisserie born as a family-run business. We combine generations of Italian pastry tradition with the fresh, vibrant ingredients of Australia.</p>
+  <p class="text-muted">Our recipes blend time-honored techniques with local flavors, creating a unique experience in every bite. Each sweet tells a story inspired by nature, fantasy, and refined flavors.</p>
+  <p class="text-muted">Guided by artisanal craftsmanship and a love for quality, we are committed to delighting your senses while embracing sustainability and community.</p>
+ <!-- Ecco l'immagine -->
+     <div class="about-images d-flex justify-content-center gap-4 mt-4">
+  <img src="img/shop.jpg" alt="About The Owl's Fancy" class="about-img">
+  <img src="img/r.png" alt="About The Owl's Fancy" class="about-img">
+    </div>
+  </div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="section-pad">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2>Our Menu</h2>
+      <p class="text-muted">Our Specialties</p>
+    </div>
+    <div class="menu-scroll-container">
+      <!-- Item 1 -->
+      <div class="menu-item-card text-center">
+        <img src="img/Sweet dream.png" alt="Moonlit Macaron">
+        <h5 class="mt-3">Sweet Dream</h5>
+        <p class="small text-muted">Dark berry mirror glaze over a chocolate and hazelnut biscuit base, layered with almond macaron and a subtle berry mousse.</p>
+        <p class="fw-bold">€28.00</p>
+      </div>
+      <!-- Item 2 -->
+      <div class="menu-item-card text-center">
+        <img src="img/the owl nest.png" alt="Starry Choux">
+        <h5 class="mt-3">The Owl Nest</h5>
+        <p class="small text-muted">Amaretto biscuit base with rich chocolate filling, topped with crunchy walnuts and almonds.</p>
+        <p class="fw-bold">€20.00</p>
+      </div>
+      <!-- Item 3 -->
+      <div class="menu-item-card text-center">
+        <img src="img/p2.png" alt="Owl's Nest Tart">
+        <h5 class="mt-3">Summer rain</h5>
+        <p class="small text-muted">Smooth pistachio cream over coconut mousse and a crunchy biscuit base, finished with candied lemon peel for a bright, tropical touch.</p>
+        <p class="fw-bold">€26.00</p>
+      </div>
+      <!-- Item 4 -->
+      <div class="menu-item-card text-center">
+        <img src="img/honey.png" alt="Luminous Éclair">
+        <h5 class="mt-3">Honeycomb</h5>
+        <p class="small text-muted">Dark chocolate ganache with honey mousse, Australian macadamia brittle, and Tasmanian honey drizzle.</p>
+        <p class="fw-bold">€24.50</p>
+      </div>
+      <!-- Item 5 -->
+      <div class="menu-item-card text-center">
+        <img src="img/cherry.png" alt="Sweet Blossom">
+        <h5 class="mt-3">Dark Wood</h5>
+        <p class="small text-muted">Dark chocolate sponge with mascarpone, cherries, and roasted almonds</p>
+        <p class="fw-bold">€26.50</p>
+      </div>
+      <!-- Item 6 -->
+      <div class="menu-item-card text-center">
+        <img src="img/p1.png" alt="Golden Honey">
+        <h5 class="mt-3">pistachio dream</h5>
+        <p class="small text-muted">Pistachio cream on crisp puff pastry, with roasted pistachios, white chocolate mousse, and a banana chip</p>
+        <p class="fw-bold">€27.00</p>
+      </div>
+      <!-- Item 7 -->
+      <div class="menu-item-card text-center">
+        <img src="img/lemon.png" alt="Velvet Dream">
+        <h5 class="mt-3">Summer's scent</h5>
+        <p class="small text-muted">Dark chocolate tart with lemon curd, whipped cream, toasted almonds, and lemon zest.</p>
+        <p class="fw-bold">€20.00</p>
+      </div>
+      <!-- Item 8 -->
+      <div class="menu-item-card text-center">
+        <img src="img/warm snow.png" alt="Citrus Twist">
+        <h5 class="mt-3">Warm Snow</h5>
+        <p class="small text-muted">White chocolate mousse on hazelnut base, topped with dark chocolate feather and bittersweet ganache.</p>
+        <p class="fw-bold">€25.00</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Order Section -->
+<section id="order" class="section-pad">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2>Online Orders</h2>
+      <p class="text-muted">Fill out the form to place an order.</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <form id="orderForm">
+          <div class="mb-3">
+            <label for="orderName" class="form-label">Name</label>
+            <input type="text" id="orderName" class="form-control" placeholder="Your full name">
+          </div>
+          <div class="mb-3">
+            <label for="orderEmail" class="form-label">Email</label>
+            <input type="email" id="orderEmail" class="form-control" placeholder
+          </div>
+          <div class="mb-3">
+          <form id="orderForm">
+  <div class="mb-3">
+    <label for="orderItem" class="form-label">Select the product</label>
+    <select id="orderItem" class="form-select">
+      <option>Sweet Dream</option>
+      <option>The Owl Nest</option>
+      <option>Summer Rain</option>
+      <option>Honeycomb</option>
+      <option>Dark Wood</option>
+      <option>Pistachio Dream</option>
+      <option>Summer Scent</option>
+      <option>Warm Snow</option>
+    </select>
+  </div>
+
+  <div class="mb-3">
+    <label for="orderQuantity" class="form-label">Quantity</label>
+    <input type="number" id="orderQuantity" class="form-control" min="1" max="20" value="1">
+  </div>
+
+  <button type="button" id="addProductBtn" class="btn btn-secondary mb-3">Add Product</button>
+
+  <div>
+    <h5>Order List</h5>
+    <ul id="orderList" class="list-group mb-3"></ul>
+  </div>
+
+  <button type="submit" class="btn btn-owl w-100">Send order</button>
+</form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Reviews Section -->
+<section id="reviews" class="section-pad">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2>Reviews</h2>
+      <p class="text-muted">What custumers say about us</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4 d-flex">
+        <div class="review-card w-100">
+          <img src="img/Woman2.jpg" alt="Sarah" class="rounded-circle" width="80" height="80">
+          <p class="mt-3">“incredible desserts! Super delicius and beautifull!”</p>
+          <div class="review-name">Chiara</div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex">
+        <div class="review-card w-100">
+          <img src="img/Man1.jpg" alt="Lucas" class="rounded-circle" width="80" height="80">
+          <p class="mt-3">“The dark moon cake was absolutly amaizing!– top custumers service.”</p>
+          <div class="review-name">Jake</div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex">
+        <div class="review-card w-100">
+          <img src="img/Woman3.jpg" alt="Jenny" class="rounded-circle" width="80" height="80">
+          <p class="mt-3">“Great packagin, beutiful boutique”</p>
+          <div class="review-name">Fatima</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact / Social Section -->
+<section id="contact" class="section-pad bg-accent">
+  <div class="container text-center">
+    <h2>Contacts</h2>
+    <p class="mb-4">follow us and share owrs desserts!</p>
+    <div class="mb-4">
+      <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-btn" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+    </div>
+    <p class="mb-0">Email demo: Theowlsfancy@123.com</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-custom text-center">
+  <div class="container">
+    <p class="mb-1">&copy; 2025 The Owl's Fancy (Demo)</p>
+    <p class="small mb-0">Bootstrap resources. Fake content for prototype.</p>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
